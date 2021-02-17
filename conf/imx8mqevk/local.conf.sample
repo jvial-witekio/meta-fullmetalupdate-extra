@@ -16,7 +16,7 @@ BB_DISKMON_DIRS ??= "\
 PACKAGECONFIG_append_pn-qemu-native = " sdl"
 PACKAGECONFIG_append_pn-nativesdk-qemu = " sdl"
 CONF_VERSION = "1"
-HOSTTOOLS_NONFATAL += " ostree ostree-push sshpass"
+HOSTTOOLS_NONFATAL += " ostree ostree-push sshpass azcopy"
 DL_DIR ?= "${BSPDIR}/downloads/"
 ACCEPT_FSL_EULA = "1"
 
